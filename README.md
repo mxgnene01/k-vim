@@ -10,16 +10,10 @@ k-vim
 
 > quick_scope.vim 需要修改52 行，去掉tT
 
-详细 [更新日志](https://github.com/wklken/k-vim/wiki/UPDATE_LOG)
-
 # 目标
 
 > Just a Better Vim Config. Keep it Simple.
 
-
-**PS**: 服务器端无插件`k-vim`简化版本(curl直接设置vimrc即可)[vim-for-server](https://github.com/wklken/vim-for-server)
-
-**PPS**: 一份tmux配置 [k-tmux](https://github.com/wklken/k-tmux)
 
 ---------------------------------
 
@@ -31,9 +25,9 @@ solarized主题
 
 ![solarized](https://github.com/wklken/gallery/blob/master/vim/solarized.png?raw=true)
 
-molokai主题
+Tomorrow-Night 主题
 
-![molokai](https://github.com/wklken/gallery/blob/master/vim/molokai.png?raw=true)
+![Tomorrow-Night](https://github.com/mxgnene01/k-vim/others/Tomorrow-Night.png?raw=true)
 
 ---------------------------------
 ---------------------------------

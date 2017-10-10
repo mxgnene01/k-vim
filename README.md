@@ -27,7 +27,7 @@ solarized主题
 
 Tomorrow-Night 主题
 
-![Tomorrow-Night](https://github.com/mxgnene01/k-vim/others/Tomorrow-Night.png?raw=true)
+![Tomorrow-Night](https://github.com/mxgnene01/k-vim/blob/master/others/Tomorrow-Night.png?raw=true)
 
 ---------------------------------
 ---------------------------------

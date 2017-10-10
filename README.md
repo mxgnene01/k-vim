@@ -4,9 +4,11 @@ k-vim
 
 > VERSION: 9.2
 
-> LAST_UPDATE_TIME: 2017-07-29
+> LAST_UPDATE_TIME: 2017-10-10
 
-> 本次更新: 小版本更新, 支持vim8异步语法检查
+> 本次更新: 修改成个人喜好的样式, 使用Tomorrow-Night 皮肤
+
+> quick_scope.vim 需要修改52 行，去掉tT
 
 详细 [更新日志](https://github.com/wklken/k-vim/wiki/UPDATE_LOG)
 
@@ -41,7 +43,7 @@ molokai主题
 ### 1. clone 到本地
 
 ```
-git clone https://github.com/wklken/k-vim.git
+git clone https://github.com/mxgnene01/k-vim.git
 ```
 
 

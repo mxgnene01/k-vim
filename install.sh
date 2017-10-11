@@ -81,8 +81,6 @@ else
     nvim -u $HOME/.vimrc.bundles +PlugInstall! +PlugClean! +qall
 fi
 
-# Tomorrow-Night theme by xiangguo Meng
-cp -rf $CURRENT_DIR/colors $HOME/.vim/
 export SHELL=$system_shell
 
 

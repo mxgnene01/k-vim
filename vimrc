@@ -174,7 +174,7 @@ set matchtime=2
 
 " 设置文内智能搜索提示
 " 高亮search命中的文本
-set hlsearch
+set nohlsearch
 " 打开增量搜索模式,随着键入即时搜索
 set incsearch
 " 搜索时忽略大小写

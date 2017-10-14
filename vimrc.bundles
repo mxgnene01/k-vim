@@ -885,9 +885,14 @@ endif
 " }}}
 
 " iamcco {{{
-    " for mac open chrome
-    " 设置 chrome 浏览器的路径（或是启动 chrome（或其他现代浏览器）的命令）
-    let g:mkdp_path_to_chrome = "open -a Google\\ Chrome"
+    if has("mac")
+        " for mac open chrome
+        " 设置 chrome 浏览器的路径（或是启动 chrome（或其他现代浏览器）的命令）
+        let g:mkdp_path_to_chrome = "open -a Google\\ Chrome"
+    elseif has('unix')
+	    " for ubuntu
+	    let g:mkdp_path_to_chrome = "google-chrome"
+	endif
 
     let g:mkdp_auto_start = 0
     " 设置为 1 可以在打开 markdown 文件的时候自动打开浏览器预览，只在打开 markdown 文件的时候打开一次

@@ -585,6 +585,9 @@ autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript tabstop=2
 " disable showmatch when use > in php
 au BufWinEnter *.php set mps-=<:>
 
+" markdown
+au BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn} set filetype=mkd
+
 
 " 保存python文件时删除多余空格
 fun! <SID>StripTrailingWhitespaces()

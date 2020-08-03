@@ -17,7 +17,7 @@ filetype off " required! turn off
 " inspired by spf13, 自定义需要的插件集合
 if !exists('g:bundle_groups')
     " let g:bundle_groups=['python', 'javascript', 'golang', 'php', 'ruby', 'shell', 'markdown', 'html', 'css', 'less', 'coffeescript', 'tmux', 'json', 'beta']
-    let g:bundle_groups=['python', 'javascript', 'markdown', 'html', 'css', 'tmux', 'beta', 'shell', 'json']
+    let g:bundle_groups=['python', 'javascript', 'markdown', 'html', 'css', 'tmux', 'markdown', 'beta', 'shell', 'json']
 endif
 
 " ----------------------------------------------------------------------------
@@ -187,18 +187,13 @@ if count(g:bundle_groups, 'tmux')
     Plug 'christoomey/vim-tmux-navigator'
 endif
 
+
 if count(g:bundle_groups, 'markdown')
     " 语法高亮
-    Plug 'godlygeek/tabular'
-    Plug 'plasticboy/vim-markdown', {'for': 'md'}
-    " vim 预览模式，亲测F12 打开无效果
-    " https://github.com/suan/vim-instant-markdown
-    " npm -g install instant-markdown-d
-    " Plug 'suan/vim-instant-markdown'
-    " let g:instant_markdown_slow = 1
-    " let g:instant_markdown_autostart = 0
-    " map <F12> :InstantMarkdownPreview<CR>
-    " markdown 预览插件，作者by iamcco
+	" makrdown 语法
+	Plug 'godlygeek/tabular'
+	Plug 'plasticboy/vim-markdown'
+    " MarkdownPreview
     Plug 'iamcco/mathjax-support-for-mkdp'
     Plug 'iamcco/markdown-preview.vim'
 endif
@@ -888,7 +883,7 @@ endif
     if has("mac")
         " for mac open chrome
         " 设置 chrome 浏览器的路径（或是启动 chrome（或其他现代浏览器）的命令）
-        let g:mkdp_path_to_chrome = "open -a Google\\ Chrome"
+        let g:mkdp_path_to_chrome = "open -a Google\ Chrome"
     elseif has('unix')
 	    " for ubuntu
 	    let g:mkdp_path_to_chrome = "google-chrome"
